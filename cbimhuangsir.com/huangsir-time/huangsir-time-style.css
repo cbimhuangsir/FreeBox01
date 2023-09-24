@@ -1,0 +1,366 @@
+body {
+	background-color: rgba: 0 0 0 0;
+	color: #fff;
+	font-family: avenir, sans-serif;
+	margin: 0;
+	padding: 20px 0 0 0;
+	font-size: 62.5%;
+}
+
+h1 {
+  color: #AAAAAA;
+  margin: 1.5em auto 1em auto;
+  width: 20em;
+  text-align: center;
+  font-size: 4vw;
+}
+
+.css_clock_container {
+	background-color: transparent;
+	margin: 0 auto 0 auto;
+	max-width: 87em;
+	height: 18em;
+}
+
+.css_top_container {
+	background-color: transparent;
+	margin: 0 auto 0 auto;
+	width: 75vw;
+	height: 15vw;
+}
+
+.outside_number {
+	position: relative;
+	width: 13.3334%;
+	height: 100%;
+	border-radius: 25% / 16.6666% ;
+	float: left;
+}
+
+.spacer1 {
+	background-color: transparent;
+	width: 3.3334%;
+	height: 100%;
+	float: left;
+}
+
+.spacer2 {
+	background-color: transparent;
+	width: 6.6667%;
+	height: 100%;
+	float: left;
+}
+
+.AMorPM {
+	background-color: transparent;
+	color: #888888;
+	padding: 3.7vw 0 0 0;
+	text-align: center;
+	font-size: 2vw;
+	font-weight: bold;
+}
+
+.left_hour_css_clock {
+	background-color: #376854;
+}
+
+.right_hour_css_clock {
+	background-color: #376854;
+}
+
+.left_minute_css_clock {
+	background-color: #b64b12;
+}
+
+.right_minute_css_clock {
+	background-color: #b64b12;
+}
+
+
+.left_second_css_clock {
+	background-color: #FFB813;
+}
+
+.right_second_css_clock {
+	background-color: #FFB813;
+}
+
+.zero_top1, .zero_top2, .zero_top3 {
+	position: absolute;
+	top: 16.6666667%;
+	left: 25%;
+	background-color: #fff;
+	width: 50%;
+	height: 50%;
+	
+	-webkit-transition: width 0.5s ease, height 0.5s ease;
+	-moz-transition: width 0.5s ease, height 0.5s ease;
+	-o-transition: width 0.5s ease, height 0.5s ease;
+	transition: width 0.5s ease, height 0.5s ease;
+}
+
+.zero_bottom1, .zero_bottom2, .zero_bottom3 {
+	position: absolute;
+	top: 58.3333333%;
+	left: 25%;
+	background-color: #fff;
+	width: 50%;
+	height: 25%;
+	
+	-webkit-transition: width 0.5s ease, height 0.5s ease;
+	-moz-transition: width 0.5s ease, height 0.5s ease;
+	-o-transition: width 0.5s ease, height 0.5s ease;
+	transition: width 0.5s ease, height 0.5s ease;
+}
+
+.one_top1, .one_top2, .one_top3 {
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	background-color: #fff;
+	width: 75%;
+	height: 50%;
+	
+	-webkit-transition: width 0.5s ease, height 0.5s ease;
+	-moz-transition: width 0.5s ease, height 0.5s ease;
+	-o-transition: width 0.5s ease, height 0.5s ease;
+	transition: width 0.5s ease, height 0.5s ease;
+}
+
+.one_bottom1, .one_bottom2, .one_bottom3 {
+	position: absolute;
+	top: 50%;
+	left: 0%;
+	background-color: #fff;
+	width: 75%;
+	height: 50%;
+	
+	-webkit-transition: width 0.5s ease, height 0.5s ease;
+	-moz-transition: width 0.5s ease, height 0.5s ease;
+	-o-transition: width 0.5s ease, height 0.5s ease;
+	transition: width 0.5s ease, height 0.5s ease;
+}
+
+.two_top1, .two_top2, .two_top3 {
+	position: absolute;
+	top: 16.6666667%;
+	left: 0%;
+	background-color: #fff;
+	width: 75%;
+	height: 25%;
+	
+	-webkit-transition: width 0.5s ease, height 0.5s ease;
+	-moz-transition: width 0.5s ease, height 0.5s ease;
+	-o-transition: width 0.5s ease, height 0.5s ease;
+	transition: width 0.5s ease, height 0.5s ease;
+}
+
+.two_bottom1, .two_bottom2, .two_bottom3 {
+	position: absolute;
+	top: 58.3333333%;
+	left: 25%;
+	background-color: #fff;
+	width: 75%;
+	height: 25%;
+	
+	-webkit-transition: width 0.5s ease, height 0.5s ease;
+	-moz-transition: width 0.5s ease, height 0.5s ease;
+	-o-transition: width 0.5s ease, height 0.5s ease;
+	transition: width 0.5s ease, height 0.5s ease;
+}
+
+.three_top1, .three_top2, .three_top3 {
+	position: absolute;
+	top: 16.6666667%;
+	left: 0%;
+	background-color: #fff;
+	width: 75%;
+	height: 25%;
+	
+	-webkit-transition: width 0.5s ease, height 0.5s ease;
+	-moz-transition: width 0.5s ease, height 0.5s ease;
+	-o-transition: width 0.5s ease, height 0.5s ease;
+	transition: width 0.5s ease, height 0.5s ease;
+}
+
+.three_bottom1, .three_bottom2, .three_bottom3 {
+	position: absolute;
+	top: 58.3333333%;
+	left: 0%;
+	background-color: #fff;
+	width: 75%;
+	height: 25%;
+	
+	-webkit-transition: width 0.5s ease, height 0.5s ease;
+	-moz-transition: width 0.5s ease, height 0.5s ease;
+	-o-transition: width 0.5s ease, height 0.5s ease;
+	transition: width 0.5s ease, height 0.5s ease;
+}
+
+.four_top1, .four_top2, .four_top3 {
+	position: absolute;
+	top: 0%;
+	left: 25%;
+	background-color: #fff;
+	width: 50%;
+	height: 41.6666667%;
+	
+	-webkit-transition: width 0.5s ease, height 0.5s ease;
+	-moz-transition: width 0.5s ease, height 0.5s ease;
+	-o-transition: width 0.5s ease, height 0.5s ease;
+	transition: width 0.5s ease, height 0.5s ease;
+}
+
+.four_bottom1, .four_bottom2, .four_bottom3 {
+	position: absolute;
+	top: 58.3333333%;
+	left: 0%;
+	background-color: #fff;
+	width: 75%;
+	height: 50%;
+	
+	-webkit-transition: width 0.5s ease, height 0.5s ease;
+	-moz-transition: width 0.5s ease, height 0.5s ease;
+	-o-transition: width 0.5s ease, height 0.5s ease;
+	transition: width 0.5s ease, height 0.5s ease;
+}
+
+.five_top1, .five_top2, .five_top3 {
+	position: absolute;
+	top: 16.6666667%;
+	left: 25%;
+	background-color: #fff;
+	width: 75%;
+	height: 25%;
+	
+	-webkit-transition: width 0.5s ease, height 0.5s ease;
+	-moz-transition: width 0.5s ease, height 0.5s ease;
+	-o-transition: width 0.5s ease, height 0.5s ease;
+	transition: width 0.5s ease, height 0.5s ease;
+}
+
+.five_bottom1, .five_bottom2, .five_bottom3 {
+	position: absolute;
+	top: 58.3333333%;
+	left: 0%;
+	background-color: #fff;
+	width: 75%;
+	height: 25%;
+	
+	-webkit-transition: width 0.5s ease, height 0.5s ease;
+	-moz-transition: width 0.5s ease, height 0.5s ease;
+	-o-transition: width 0.5s ease, height 0.5s ease;
+	transition: width 0.5s ease, height 0.5s ease;
+}
+
+.six_top1, .six_top2, .six_top3 {
+	position: absolute;
+	top: 0%;
+	left: 25%;
+	background-color: #fff;
+	width: 75%;
+	height: 41.6666667%;
+	
+	-webkit-transition: width 0.5s ease, height 0.5s ease;
+	-moz-transition: width 0.5s ease, height 0.5s ease;
+	-o-transition: width 0.5s ease, height 0.5s ease;
+	transition: width 0.5s ease, height 0.5s ease;
+}
+
+.six_bottom1, .six_bottom2, .six_bottom3 {
+	position: absolute;
+	top: 58.3333333%;
+	left: 25%;
+	background-color: #fff;
+	width: 50%;
+	height: 25%;
+	
+	-webkit-transition: width 0.5s ease, height 0.5s ease;
+	-moz-transition: width 0.5s ease, height 0.5s ease;
+	-o-transition: width 0.5s ease, height 0.5s ease;
+	transition: width 0.5s ease, height 0.5s ease;
+}
+
+.seven_top1, .seven_top2, .seven_top3 {
+	position: absolute;
+	top: 16.6666667%;
+	left: 0%;
+	background-color: #fff;
+	width: 75%;
+	height: 45%;
+	
+	-webkit-transition: width 0.5s ease, height 0.5s ease;
+	-moz-transition: width 0.5s ease, height 0.5s ease;
+	-o-transition: width 0.5s ease, height 0.5s ease;
+	transition: width 0.5s ease, height 0.5s ease;
+}
+
+.seven_bottom1, .seven_bottom2, .seven_bottom3 {
+	position: absolute;
+	top: 58.3333333%;
+	left: 0%;
+	background-color: #fff;
+	width: 75%;
+	height: 45%;
+	
+	-webkit-transition: width 0.5s ease, height 0.5s ease;
+	-moz-transition: width 0.5s ease, height 0.5s ease;
+	-o-transition: width 0.5s ease, height 0.5s ease;
+	transition: width 0.5s ease, height 0.5s ease;
+}
+
+.eight_top1, .eight_top2, .eight_top3 {
+	position: absolute;
+	top: 16.6666667%;
+	left: 25%;
+	background-color: #fff;
+	width: 50%;
+	height: 25%;
+	
+	-webkit-transition: width 0.5s ease, height 0.5s ease;
+	-moz-transition: width 0.5s ease, height 0.5s ease;
+	-o-transition: width 0.5s ease, height 0.5s ease;
+	transition: width 0.5s ease, height 0.5s ease;
+}
+
+.eight_bottom1, .eight_bottom2, .eight_bottom3 {
+	position: absolute;
+	top: 58.3333333%;
+	left: 25%;
+	background-color: #fff;
+	width: 50%;
+	height: 25%;
+	
+	-webkit-transition: width 0.5s ease, height 0.5s ease;
+	-moz-transition: width 0.5s ease, height 0.5s ease;
+	-o-transition: width 0.5s ease, height 0.5s ease;
+	transition: width 0.5s ease, height 0.5s ease;
+}
+
+.nine_top1, .nine_top2, .nine_top3 {
+	position: absolute;
+	top: 16.6666667%;
+	left: 25%;
+	background-color: #fff;
+	width: 50%;
+	height: 25%;
+	
+	-webkit-transition: width 0.5s ease, height 0.5s ease;
+	-moz-transition: width 0.5s ease, height 0.5s ease;
+	-o-transition: width 0.5s ease, height 0.5s ease;
+	transition: width 0.5s ease, height 0.5s ease;
+}
+
+.nine_bottom1, .nine_bottom2, .nine_bottom3 {
+	position: absolute;
+	top: 58.3333333%;
+	left: 0%;
+	background-color: #fff;
+	width: 75%;
+	height: 45%;
+	
+	-webkit-transition: width 0.5s ease, height 0.5s ease;
+	-moz-transition: width 0.5s ease, height 0.5s ease;
+	-o-transition: width 0.5s ease, height 0.5s ease;
+	transition: width 0.5s ease, height 0.5s ease;
+}
