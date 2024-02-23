@@ -3,7 +3,7 @@
 #EXT-X-TARGETDURATION:19
 #EXT-X-MEDIA-SEQUENCE:0
 #EXT-X-PLAYLIST-TYPE:VOD
-#EXT-X-KEY:METHOD=AES-128,URI="https://jsdelivr.b-cdn.net/gh/cbimhuangsir/FreeBox01@main/000-hlskey/cbim.key",IV=0x039fa335a94260d5c8d4f12f6dafcd7e
+#EXT-X-KEY:METHOD=AES-128,URI="https://fastly.jsdelivr.net/gh/cbimhuangsir/FreeBox01@main/000-hlskey/cbim.key",IV=0x039fa335a94260d5c8d4f12f6dafcd7e
 #EXTINF:15.066667,
 D33514C644DE8424900D35B9BA6E15C9-0.ts
 #EXTINF:16.666667,
